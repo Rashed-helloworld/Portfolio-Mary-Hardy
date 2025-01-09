@@ -16,6 +16,34 @@ body{
     "width" 100;
 }
 
+/* Shared styles */
+
+.text-color{
+    color: #474747;
+}
+
+.btn {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    padding: 18px 36px;
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+}
+
+.regular{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* Header styling */
+
+header{
+    height: 837px;
+    width: 100%;
+}
+
 /* navbar styling */
 
 header nav{
@@ -26,20 +54,77 @@ header nav{
 
 nav h3{
     margin-left: 226px;
+    font-weight: bolder;
+    font-size: 45px;
 }
 
 nav > ul{
     display: flex;
+    align-items: center;
     margin-right: 180px;
 }
 
 nav ul li{
     list-style: none;
     margin-right: 50px;
-}
-
-nav 
+    font-size: 20px;
+} 
 
 nav li a {
     text-decoration: none;
+}
+
+.span-color{
+    color:#FD6E0A;
+}
+
+/* Container styling */
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* container section */
+
+.content{
+    width: 585px;
+    height: 356px;
+    margin-left: 230px;
+}
+
+.content-title{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.content-name{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.content-text{
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.contact-btn{
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 18px 36px;
+    margin-left: 30px;
+}
+
+.div-btn{
+    display: flex;
+    gap: 30px;
+    margin-top: 0;
 }
