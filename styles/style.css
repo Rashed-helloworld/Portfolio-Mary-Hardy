@@ -1,4 +1,7 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
 /* body */
 
 body{
@@ -42,6 +45,14 @@ body{
 header{
     height: 837px;
     width: 100%;
+    padding: 50px 38px 0 23px;
+    background-image: url('../portfolio-resources/images/developer.png'), url('../portfolio-resources/images/header_bg.png');
+    background-color: #fff8f3;
+    background-position: 23px, bottom right;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 /* navbar styling */
@@ -49,7 +60,6 @@ header{
 header nav{
     display: flex;
     justify-content: space-between;
-    margin-top: 51px;
 }
 
 nav h3{
@@ -85,6 +95,8 @@ nav li a {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin: 0 38px 0 0;
+    padding-bottom: 0;
 }
 
 /* container section */
@@ -127,4 +139,8 @@ nav li a {
     display: flex;
     gap: 30px;
     margin-top: 0;
+}
+
+img[alt='mary_hardy']{
+    margin-bottom: -37px; 
 }
