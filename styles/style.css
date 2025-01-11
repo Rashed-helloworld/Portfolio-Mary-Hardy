@@ -333,3 +333,66 @@ hr{
     margin: 50px auto;
 }
 
+footer{
+    width: calc(100%-230px);
+    height: 780px;
+    padding: 130px 230px;
+    background-color: #fff8f3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    column-gap: 100px;
+}
+
+footer section{
+    width: 50%;
+}
+
+textarea,
+input{
+    display: block;
+    height: 40px;
+    width: 461px;
+    padding: 18px 30px;
+    margin-bottom: 24px;
+    border: none;
+    font-size: 18px;
+}
+
+textarea{
+    height: 180px;
+    resize: none;
+}
+
+input:hover,
+input:focus,
+input:active,
+textarea:hover,
+textarea:focus,
+textarea:active{
+    border: none;
+    outline: none;
+}
+
+footer h5{
+    margin-bottom: 28px;
+}
+
+footer p{
+    margin-bottom: 30px;
+}
+
+.icons{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;;
+    margin-top: 30px;
+}
+
+footer i{
+    vertical-align: middle;
+    font-weight: bold;
+    margin-top: 5px;
+}
