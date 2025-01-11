@@ -47,6 +47,21 @@ body{
     font-weight: 400;
 }
 
+.regular-small{
+    font-size: 16px;
+    color: #757575;
+}
+
+.title{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.sub-title{
+    font-size: 30px;
+    font-weight: 600;
+}
+
 .bold{
     font-weight: bold;
 }
@@ -263,3 +278,58 @@ img[alt='mary_hardy']{
     font-size: 20px;
     margin-bottom: 20px;
 }
+
+/* Resume Styling */
+
+.resume{
+    width: 1140px;
+    height: auto;
+    margin: 150px auto 113px;
+}
+
+.resume > h4{
+    width: 100%;
+    margin: 113px auto;
+    text-align: center;
+}
+
+.resume-sec-1{
+    width: 45%;
+    float: left;
+    margin-right: 25px;
+}
+
+.resume h5{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.resume h6{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.resume h6 + p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.resume-sec-3{
+    width: 90%;
+    height: 175px;
+}
+
+hr{
+    border: 1px solid #d1d1d1;
+    margin: 30px auto;
+}
+
+.align-center{
+    display: block;
+    width: 200px;
+    height: 64px;
+    white-space: nowrap;
+    margin: 50px auto;
+}
+
