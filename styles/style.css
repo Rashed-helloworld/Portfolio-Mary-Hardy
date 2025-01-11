@@ -40,6 +40,7 @@ body{
     background-color: #FD6E0A;
     border: none;
     border-radius: 5px;
+    white-space: nowrap;
 }
 
 .regular{
@@ -159,6 +160,8 @@ nav li a {
     background-color: transparent;
     padding: 18px 36px;
     margin-left: 30px;
+    color: #FD6E0A;
+    white-space: nowrap;
 }
 
 .div-btn{
