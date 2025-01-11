@@ -7,6 +7,7 @@
 body{
     max-width: 1500px;
     min-width: 300px;
+    margin: 0 auto;
 }
 
 
@@ -21,8 +22,14 @@ body{
 
 /* Shared styles */
 
-.text-color{
+.text-color1{
+    color: #181818;
+}
+.text-color2{
     color: #474747;
+}
+.text-color3{
+    color: #757575;
 }
 
 .btn {
@@ -40,12 +47,16 @@ body{
     font-weight: 400;
 }
 
+.bold{
+    font-weight: bold;
+}
 /* Header styling */
 
 header{
     height: 837px;
     width: 100%;
     padding: 50px 38px 0 23px;
+    margin: 0 auto;
     background-image: url('../portfolio-resources/images/developer.png'), url('../portfolio-resources/images/header_bg.png');
     background-color: #fff8f3;
     background-position: 23px, bottom right;
@@ -143,4 +154,112 @@ nav li a {
 
 img[alt='mary_hardy']{
     margin-bottom: -37px; 
+}
+
+/* About Styling */
+
+.about{
+    width: 1140px;
+    height: 550px;
+    background-color: #fff8f3;
+    margin: 130px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-container{
+    width: 827px;
+    height: 288px;
+    border: 1px solid black;
+    background-color: #fff;
+}
+
+.about-description li{
+    list-style-type: none;
+}
+
+.about-description li > h5,
+.about-description li > p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.about-description ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.about-title{
+    font-size: 35px;
+    text-align: center;
+}
+
+.about-text{
+    margin: 30px 15px;
+    text-align: center;
+}
+
+/* Skills Styling */
+
+.skills{
+    width: 1140px;
+    margin: auto;
+}
+
+.skills-description{
+    width: 900px;
+    height: 90px;
+    margin: 0 auto 0;
+}
+
+.skills-title,
+.skills-text{
+    text-align: center;
+}
+
+.skills-title{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+
+
+/* Card Styling */
+
+.cards{
+    width: 1140px;
+    height: 300px;
+    margin: 150px auto 130px;
+}
+
+.cards > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cards li{
+    list-style-type: none;
+}
+
+.card{
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0 6px 50px rgba(0, 0, 0, 0.06);
+}
+
+.card > img{
+    margin-bottom: 30px;
+}
+
+.card > h6{
+    font-size: 20px;
+    margin-bottom: 20px;
 }
